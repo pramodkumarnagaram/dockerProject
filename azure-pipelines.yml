@@ -25,6 +25,6 @@ stages:
       inputs:
         containerRegistry: 'pramoddocker'
         repository: 'pramodnagaram/fromazure'
-        command: 'buildAndPush'
+        command: 'build'
         Dockerfile: '**/Dockerfile'
         tags: '$(tag)'
