@@ -24,7 +24,7 @@ stages:
       displayName: Build an image
       inputs:
         containerRegistry: 'pramoddocker'
-        repository: 'pramodnagaram/first-docker-image-maven:QABuild'
+        repository: 'pramodnagaram/first-docker-image-maven'
         command: 'buildAndPush'
         Dockerfile: '**/Dockerfile'
         tags: '$(tag)'
