@@ -9,7 +9,7 @@ resources:
 - repo: self
 
 variables:
-  tag: 'QABuild'
+  tag: 'qabuild'
 
 stages:
 - stage: Build
